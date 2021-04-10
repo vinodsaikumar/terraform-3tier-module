@@ -1,0 +1,4 @@
+#cloud-config
+
+bootcmd:
+  - echo "${ssh_principals}" > /etc/ssh/auth_principals/ubuntu
